@@ -16,9 +16,10 @@ h1 {
 }
 
 /* Required field label styling */
-.required-field {
-    font-weight: bold;
-    color: #007bff;
+.required-field:after{
+    content: "*";
+    color: red;
+    display: inline;
 }
 
 /* Button styling */
